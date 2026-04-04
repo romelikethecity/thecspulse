@@ -1,1 +1,112 @@
-{}
+{
+  "date": "April 04, 2026",
+  "total_jobs": 1261,
+  "tools": {
+    "Rust": 712,
+    "Rag": 645,
+    "Salesforce": 388,
+    "Aws": 216,
+    "Gainsight": 86,
+    "Hubspot": 65,
+    "Tableau": 37,
+    "Power Bi": 30,
+    "Azure": 26,
+    "G2": 25,
+    "Totango": 20,
+    "Gong": 19,
+    "Catalyst": 18,
+    "Churnzero": 17,
+    "Claude": 16,
+    "Prompt Engineering": 14,
+    "Gcp": 13,
+    "Planhat": 12,
+    "Python": 11,
+    "Dynamics 365": 11,
+    "Vitally": 10,
+    "Second Nature Training": 9,
+    "Mailchimp": 8,
+    "Looker": 8,
+    "Anthropic": 7,
+    "Javascript": 7,
+    "Intercom": 7,
+    "Gartner Peer": 7,
+    "Openai": 6,
+    "Klaviyo": 5,
+    "Zoho Crm": 5,
+    "Instantly": 5,
+    "Thoughtspot": 4,
+    "Pendo": 4,
+    "Pendo Plg": 4,
+    "Docker": 3,
+    "Marketo": 3,
+    "Bedrock": 3,
+    "Loom": 3,
+    "Clay": 3,
+    "Reveal": 3,
+    "Kubernetes": 3,
+    "Haystack": 3,
+    "Gemini": 2,
+    "Docusign": 2,
+    "Calendly": 2,
+    "Cohere": 2,
+    "Zapier": 2,
+    "Braze": 2,
+    "Userpilot": 2
+  },
+  "segment": {
+    "Enterprise": 404,
+    "Smb": 76,
+    "Fortune 500": 70,
+    "Mid Market": 22
+  },
+  "team_structure": {
+    "Build Team": 566,
+    "First Hire": 65,
+    "Reports Cro": 41,
+    "Reports Vp": 17,
+    "Reports Ceo": 6,
+    "Player Coach": 2
+  },
+  "hiring_signals": {
+    "Growth Hire": 946,
+    "Turnaround": 361,
+    "Immediate": 85
+  },
+  "comp_signals": {
+    "Equity": 914,
+    "Ote Mentioned": 105,
+    "Uncapped": 17
+  },
+  "deal_size": {
+    "Seven Figure": 92,
+    "Transactional": 14,
+    "Enterprise Deal": 7,
+    "Mid Deal": 3
+  },
+  "geo_focus": {
+    "Global": 419,
+    "North America": 349,
+    "Emea": 72,
+    "Apac": 60,
+    "Latam": 18
+  },
+  "motion": {
+    "Channel": 122,
+    "Direct": 19,
+    "Inside": 15,
+    "Plg": 6,
+    "Abm": 4,
+    "Inbound": 2,
+    "Outbound": 1
+  },
+  "sales_cycle": {
+    "Short": 13,
+    "Long": 7
+  },
+  "methodology": {
+    "Solution Selling": 11,
+    "Value Selling": 5,
+    "Miller Heiman": 3,
+    "Meddic": 2
+  }
+}

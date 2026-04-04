@@ -1,1 +1,211 @@
-{}
+{
+  "generated_at": "2026-04-04T16:06:38.197316",
+  "total_records": 1261,
+  "records_with_salary": 750,
+  "disclosure_rate": 59.5,
+  "salary_stats": {
+    "min": 29120,
+    "max": 437400,
+    "median": 90000,
+    "avg": 96578,
+    "count_with_salary": 750
+  },
+  "by_seniority": {
+    "Unknown": {
+      "count": 178,
+      "min_base_avg": 87843,
+      "max_base_avg": 126303,
+      "median": 75000
+    },
+    "Entry": {
+      "count": 57,
+      "min_base_avg": 72226,
+      "max_base_avg": 95090,
+      "median": 62500
+    },
+    "Mid": {
+      "count": 332,
+      "min_base_avg": 85805,
+      "max_base_avg": 116769,
+      "median": 80000
+    },
+    "Director": {
+      "count": 50,
+      "min_base_avg": 150085,
+      "max_base_avg": 208364,
+      "median": 150000
+    },
+    "Head of": {
+      "count": 3,
+      "min_base_avg": 128412,
+      "max_base_avg": 178355,
+      "median": 115236
+    },
+    "Senior": {
+      "count": 111,
+      "min_base_avg": 120821,
+      "max_base_avg": 168397,
+      "median": 115000
+    },
+    "VP": {
+      "count": 19,
+      "min_base_avg": 152247,
+      "max_base_avg": 194431,
+      "median": 150000
+    }
+  },
+  "by_metro": {
+    "Denver": {
+      "count": 16,
+      "min_base_avg": 89155,
+      "max_base_avg": 121503,
+      "median": 80000
+    },
+    "Unknown": {
+      "count": 445,
+      "min_base_avg": 91467,
+      "max_base_avg": 127406,
+      "median": 82700
+    },
+    "New York": {
+      "count": 97,
+      "min_base_avg": 117057,
+      "max_base_avg": 153320,
+      "median": 113200
+    },
+    "Los Angeles": {
+      "count": 79,
+      "min_base_avg": 91487,
+      "max_base_avg": 125053,
+      "median": 80000
+    },
+    "Washington DC": {
+      "count": 13,
+      "min_base_avg": 103861,
+      "max_base_avg": 151153,
+      "median": 100000
+    },
+    "San Francisco": {
+      "count": 30,
+      "min_base_avg": 117690,
+      "max_base_avg": 160689,
+      "median": 116000
+    },
+    "Chicago": {
+      "count": 37,
+      "min_base_avg": 95651,
+      "max_base_avg": 138313,
+      "median": 88000
+    },
+    "Boston": {
+      "count": 14,
+      "min_base_avg": 91924,
+      "max_base_avg": 126838,
+      "median": 75000
+    },
+    "Austin": {
+      "count": 10,
+      "min_base_avg": 94170,
+      "max_base_avg": 139690,
+      "median": 90300
+    },
+    "Miami": {
+      "count": 4,
+      "min_base_avg": 99000,
+      "max_base_avg": 127500,
+      "median": 104000
+    },
+    "Seattle": {
+      "count": 4,
+      "min_base_avg": 145625,
+      "max_base_avg": 230500,
+      "median": 155800
+    }
+  },
+  "by_remote": {
+    "onsite": {
+      "count": 603,
+      "min_base_avg": 98249,
+      "max_base_avg": 135506,
+      "median": 90400
+    },
+    "remote": {
+      "count": 147,
+      "min_base_avg": 89723,
+      "max_base_avg": 124480,
+      "median": 80000
+    }
+  },
+  "top_paying_roles": [
+    {
+      "title": "Sr. Director, Customer Success Innovation",
+      "company": "Workday",
+      "salary_min": 291600.0,
+      "salary_max": 437400.0,
+      "seniority": ""
+    },
+    {
+      "title": "Customer Success Manager - Top 300",
+      "company": "FranConnect, LLC",
+      "salary_min": 300000.0,
+      "salary_max": 400000.0,
+      "seniority": "Mid"
+    },
+    {
+      "title": "Associate Vice President, Customer Success - Tier 1 & National Accounts",
+      "company": "Calix",
+      "salary_min": 235800.0,
+      "salary_max": 377200.0,
+      "seniority": "Entry"
+    },
+    {
+      "title": "Director, Data Science - Intuit Customer Success Data Platform",
+      "company": "Intuit",
+      "salary_min": 268500.0,
+      "salary_max": 363000.0,
+      "seniority": "Director"
+    },
+    {
+      "title": "Director, Data Science - Intuit Customer Success Data Platform",
+      "company": "Intuit",
+      "salary_min": 268500.0,
+      "salary_max": 363000.0,
+      "seniority": "Director"
+    },
+    {
+      "title": "Senior Director of Software Engineering - Client Onboarding & Document Engineering | Corporate Technology",
+      "company": "JPMorganChase",
+      "salary_min": 232750.0,
+      "salary_max": 325000.0,
+      "seniority": "Director"
+    },
+    {
+      "title": "Sr. Staff Technical Customer Experience Manager",
+      "company": "Nutanix",
+      "salary_min": 160000.0,
+      "salary_max": 320400.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Sr. Staff Technical Customer Experience Manager",
+      "company": "Nutanix",
+      "salary_min": 160000.0,
+      "salary_max": 320400.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Sr. Staff Technical Customer Experience Manager",
+      "company": "Nutanix",
+      "salary_min": 160000.0,
+      "salary_max": 320400.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Sr. Staff Technical Customer Experience Manager",
+      "company": "Nutanix",
+      "salary_min": 160000.0,
+      "salary_max": 320400.0,
+      "seniority": "Senior"
+    }
+  ]
+}
