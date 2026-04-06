@@ -14,7 +14,7 @@ CTA_LABEL = "Get the Weekly Pulse"
 
 SIGNUP_WORKER_URL = "https://cs-newsletter-signup.rome-workers.workers.dev/subscribe"
 
-GA_MEASUREMENT_ID = ""
+GA_MEASUREMENT_ID = "G-H8V6QYNJPC"
 GOOGLE_SITE_VERIFICATION = ""  # Set to verification filename (e.g., "google1234abcd.html") to generate file
 GOOGLE_SITE_VERIFICATION_META = ""  # Set to verification code for meta tag method (alternative to HTML file)
 
