@@ -20,6 +20,8 @@ from templates import (get_page_wrapper, write_page, get_homepage_schema,
 from salary_pages import build_all_salary_pages
 from tools_pages import build_all_tools_pages
 from glossary_pages import build_all_glossary_pages
+from careers_pages import build_all_careers_pages
+from insights_pages import build_all_insights_pages
 
 # OG image generation state
 SKIP_OG = "--skip-og" in sys.argv
@@ -115,11 +117,11 @@ def build_homepage():
             <p>How to break into CS leadership, negotiate comp, and navigate the CSM-to-VP path. Interview prep and skill maps.</p>
             <span class="preview-link">Browse guides &rarr;</span>
         </a>
-        <a href="/jobs/" class="preview-card">
-            <div class="preview-icon"><span class="preview-emoji">&#128188;</span></div>
-            <h3>Job Board</h3>
-            <p>Curated customer success roles from top SaaS companies. CSMs, CS leaders, renewal managers, and more.</p>
-            <span class="preview-link">View all jobs &rarr;</span>
+        <a href="/insights/" class="preview-card">
+            <div class="preview-icon"><span class="preview-emoji">&#128161;</span></div>
+            <h3>Insights</h3>
+            <p>Data-driven analysis of CS trends, compensation shifts, and platform changes. Original research updated weekly.</p>
+            <span class="preview-link">Browse insights &rarr;</span>
         </a>
         <a href="/glossary/" class="preview-card">
             <div class="preview-icon"><span class="preview-emoji">&#128218;</span></div>
@@ -384,6 +386,8 @@ def main():
     build_all_salary_pages()
     build_all_tools_pages()
     build_all_glossary_pages()
+    build_all_careers_pages()
+    build_all_insights_pages()
 
     print("\n  Building meta files...")
     build_sitemap()
