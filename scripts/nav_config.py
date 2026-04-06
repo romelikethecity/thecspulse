@@ -51,6 +51,7 @@ NAV_ITEMS = [
             {"href": "/careers/", "label": "Career Guides"},
             {"href": "/careers/how-to-become-cs-leader/", "label": "How to Become a CS Leader"},
             {"href": "/careers/job-growth/", "label": "Job Market Growth"},
+            {"href": "/companies/", "label": "Companies Hiring"},
         ],
     },
     {"href": "/glossary/", "label": "Glossary"},

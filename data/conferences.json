@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Pulse",
+    "organizer": "Gainsight",
+    "typical_attendees": 5000,
+    "location": "San Francisco, CA",
+    "website_url": "https://www.gainsight.com/pulse/",
+    "relevance_tags": ["customer success", "retention", "NRR", "CS platforms"],
+    "description": "The largest customer success conference in the world. Covers CS strategy, retention frameworks, NRR growth, and the Gainsight platform ecosystem."
+  },
+  {
+    "name": "SuccessConnect",
+    "organizer": "SAP",
+    "typical_attendees": 3000,
+    "location": "Las Vegas, NV",
+    "website_url": "https://www.sap.com/events/successconnect.html",
+    "relevance_tags": ["customer success", "HCM", "employee experience", "enterprise"],
+    "description": "SAP's customer success and HCM conference. Relevant for CS professionals in enterprise environments managing complex customer relationships and outcomes."
+  },
+  {
+    "name": "Customer Success Festival",
+    "organizer": "Customer Success Collective",
+    "typical_attendees": 1500,
+    "location": "Various Global Cities",
+    "website_url": "https://customersuccesscollective.com/customer-success-festival/",
+    "relevance_tags": ["customer success", "CS strategy", "leadership", "metrics"],
+    "description": "Global CS festival with sessions on CS strategy, metrics, team building, and career development. Practical and community-driven format."
+  },
+  {
+    "name": "CSM Practice Summit",
+    "organizer": "CSM Practice",
+    "typical_attendees": 500,
+    "location": "Virtual",
+    "website_url": "https://www.csmpractice.com/",
+    "relevance_tags": ["CSM", "playbooks", "onboarding", "health scores"],
+    "description": "Intimate summit focused on CSM best practices. Covers playbook design, onboarding optimization, health scoring, and scaling CS operations."
+  },
+  {
+    "name": "BIG RYG",
+    "organizer": "ChurnZero",
+    "typical_attendees": 800,
+    "location": "Washington, DC",
+    "website_url": "https://churnzero.com/big-ryg/",
+    "relevance_tags": ["customer success", "churn reduction", "CS operations", "automation"],
+    "description": "ChurnZero's customer success conference. Focused on reducing churn, automating CS workflows, and building data-driven customer health programs."
+  },
+  {
+    "name": "TSIA World",
+    "organizer": "TSIA (Technology & Services Industry Association)",
+    "typical_attendees": 2000,
+    "location": "Las Vegas, NV",
+    "website_url": "https://www.tsia.com/conference",
+    "relevance_tags": ["customer success", "professional services", "support", "subscription"],
+    "description": "Covers the full post-sale lifecycle including customer success, support, professional services, and subscription economics. Research-driven benchmarks and frameworks."
+  },
+  {
+    "name": "Customer Success Network Conference",
+    "organizer": "Customer Success Network",
+    "typical_attendees": 400,
+    "location": "Various US Cities",
+    "website_url": "https://customersuccessnetwork.com/",
+    "relevance_tags": ["customer success", "networking", "community", "best practices"],
+    "description": "Community-focused CS conference designed for practitioner networking and knowledge sharing. Smaller format with high-quality peer connections."
+  },
+  {
+    "name": "SaaStr Annual",
+    "organizer": "SaaStr",
+    "typical_attendees": 12500,
+    "location": "San Francisco, CA",
+    "website_url": "https://www.saastr.com/annual/",
+    "relevance_tags": ["SaaS", "customer success", "NRR", "scale"],
+    "description": "The largest SaaS conference globally. Strong CS track covering net revenue retention, expansion playbooks, and the role of CS in SaaS growth strategy."
+  },
+  {
+    "name": "Totango Customer Success Summit",
+    "organizer": "Totango",
+    "typical_attendees": 1000,
+    "location": "Virtual + In-Person",
+    "website_url": "https://www.totango.com/",
+    "relevance_tags": ["customer success", "composable CS", "health scoring", "automation"],
+    "description": "Totango's annual summit on customer success operations. Covers composable CS architecture, SuccessBLOCs, health scoring, and automation at scale."
+  },
+  {
+    "name": "CustomerX Conference",
+    "organizer": "CustomerX",
+    "typical_attendees": 300,
+    "location": "Virtual",
+    "website_url": "https://customerx.co/",
+    "relevance_tags": ["customer experience", "CS", "CX strategy", "journey mapping"],
+    "description": "Focused on the intersection of customer success and customer experience. Covers journey mapping, voice of customer programs, and CX-driven retention strategies."
+  },
+  {
+    "name": "Catalyst Connect",
+    "organizer": "Catalyst Software",
+    "typical_attendees": 500,
+    "location": "New York, NY",
+    "website_url": "https://catalyst.io/",
+    "relevance_tags": ["customer success", "CS platforms", "data", "workflow"],
+    "description": "Catalyst's user conference for CS professionals. Covers CS platform best practices, workflow automation, and data-driven customer management."
+  },
+  {
+    "name": "CS100 Summit",
+    "organizer": "CS100 Summit",
+    "typical_attendees": 200,
+    "location": "Sundance, UT",
+    "website_url": "https://cs100summit.com/",
+    "relevance_tags": ["CS leadership", "executive", "strategy", "networking"],
+    "description": "Exclusive, invite-only summit for top CS leaders. Intimate setting for senior CS executives to discuss strategy, organizational design, and industry direction."
+  }
+]
