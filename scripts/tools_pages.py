@@ -503,6 +503,428 @@ TOOL_PROFILES = {
 <h2>Userpilot vs Pendo</h2>
 <p>Pendo wins on analytics depth and enterprise features. Userpilot wins on price and simplicity. If your primary need is building onboarding flows and tracking feature adoption, Userpilot covers 80% of what Pendo does at 15-20% of the cost. If you need deep product analytics, cohort analysis, and enterprise-grade reporting, Pendo is the better investment.</p>""",
     },
+    # --- Onboarding Tools ---
+    "GuideCX": {
+        "slug": "guidecx",
+        "mentions": 3,
+        "category": "onboarding",
+        "founded": "2017",
+        "hq": "Lehi, Utah",
+        "pricing": "Custom pricing, typically $50-100/user/month",
+        "best_for": "B2B companies with complex, multi-stakeholder onboarding processes",
+        "website": "https://www.guidecx.com",
+        "rating": {"value": 4.6, "count": 120},
+        "description": "Project-based customer onboarding platform that gives both internal teams and customers visibility into implementation progress. Built around the idea that onboarding is a project, not a workflow.",
+        "pros": [
+            "Customer-facing project portal increases transparency",
+            "Template library speeds up repeatable onboarding playbooks",
+            "Built-in task assignment across internal and external stakeholders",
+            "Time-to-value tracking tied to project milestones",
+            "Strong Salesforce and HubSpot integrations for handoff data",
+        ],
+        "cons": [
+            "Limited post-onboarding CS features, so you need another platform after go-live",
+            "Reporting is functional but not deeply customizable",
+            "Pricing is opaque and requires a sales conversation",
+            "Smaller ecosystem and community than general CS platforms",
+            "Mobile experience lags behind the desktop product",
+        ],
+        "body": """<h2>GuideCX as a CS Tool</h2>
+<p>GuideCX appears in {mentions} of {total_jobs} CS job postings, which reflects its niche positioning. It is not a full CS platform. It is a purpose-built onboarding project management tool. CS teams that run complex implementations with multiple stakeholders, timelines, and dependencies are the core audience.</p>
+
+<h2>What GuideCX Does Well</h2>
+<p>The standout feature is the customer-facing project portal. Instead of sending spreadsheets or status update emails, you give the customer a login where they can see exactly where their onboarding stands, what tasks are pending on their side, and when the next milestone is expected. This alone reduces "where are we?" emails by 60-70% according to GuideCX case studies.</p>
+<p>Template management is the second major advantage. If you onboard 50+ customers per quarter with a similar process, GuideCX lets you templatize the entire project plan and spin up new instances in minutes. Each template can have conditional logic, so enterprise customers get extra steps that SMB customers skip.</p>
+
+<h2>Who Should Use GuideCX</h2>
+<p>GuideCX fits B2B SaaS companies where onboarding takes 30+ days and involves 3+ stakeholders on the customer side. If your onboarding is a quick setup wizard, GuideCX is overkill. If your onboarding requires data migration, integrations, training sessions, and user provisioning across departments, GuideCX replaces the messy combination of spreadsheets, Asana boards, and email threads that most teams use.</p>
+
+<h2>GuideCX Pricing</h2>
+<p>GuideCX does not publish pricing. Based on market data, expect $50-100 per user per month depending on volume and feature tier. There is a free trial available. The ROI case is straightforward: if GuideCX saves your onboarding team 5 hours per customer and you onboard 20 customers per month, the math works quickly.</p>""",
+    },
+    "Rocketlane": {
+        "slug": "rocketlane",
+        "mentions": 2,
+        "category": "onboarding",
+        "founded": "2020",
+        "hq": "San Francisco, California",
+        "pricing": "Starts at $19/user/month, Professional tier at $49/user/month",
+        "best_for": "Professional services and onboarding teams that need project management, document collaboration, and time tracking in one tool",
+        "website": "https://www.rocketlane.com",
+        "rating": {"value": 4.7, "count": 175},
+        "description": "Customer onboarding and professional services automation platform that combines project management, document collaboration, and customer portals into a single workspace.",
+        "pros": [
+            "Combines project management, docs, and customer portal in one tool",
+            "Published, transparent pricing starting at $19/user/month",
+            "Built-in time tracking for services teams billing by hour",
+            "Strong templatization with cross-project analytics",
+            "Modern UI that customers actually enjoy using",
+        ],
+        "cons": [
+            "Newer company with a smaller customer base than GuideCX",
+            "Resource management features are still maturing",
+            "Limited native integrations outside of CRM basics",
+            "Reporting is improving but not yet enterprise-grade",
+            "Some advanced features require the highest pricing tier",
+        ],
+        "body": """<h2>Rocketlane as a CS Tool</h2>
+<p>Rocketlane shows up in {mentions} of {total_jobs} CS job postings. Founded in 2020, it is the newest entrant in the onboarding platform category, but it has gained traction fast. The product targets the overlap between professional services teams and CS onboarding teams, which is a gap that older tools miss.</p>
+
+<h2>What Sets Rocketlane Apart</h2>
+<p>Rocketlane's core differentiator is combining three tools into one: project management (like Asana), document collaboration (like Notion), and a customer portal (like GuideCX). For teams that previously juggled Asana for tasks, Google Docs for SOWs, and email for customer updates, Rocketlane consolidates everything.</p>
+<p>The built-in time tracking is a specific advantage for services teams that bill hours. You can track time against project phases, generate utilization reports, and tie billable hours back to specific customers. No other onboarding platform does this natively.</p>
+
+<h2>Who Should Use Rocketlane</h2>
+<p>Rocketlane is ideal for SaaS companies where the onboarding team also functions as a professional services team. If you have implementation consultants who run onboarding projects, collaborate on configuration documents, and need to track time, Rocketlane replaces 3 tools at once. If your onboarding is purely CSM-led without a services component, GuideCX or even a standard project tool might be a simpler fit.</p>
+
+<h2>Rocketlane Pricing</h2>
+<p>Rocketlane publishes its pricing, which is refreshing in this space. The Essential plan starts at $19/user/month and covers basic project management and customer portals. The Professional plan at $49/user/month adds time tracking, resource management, and advanced automations. Enterprise pricing is custom. Compared to GuideCX, Rocketlane is generally 20-40% cheaper at similar feature levels.</p>""",
+    },
+    "OnRamp": {
+        "slug": "onramp",
+        "mentions": 1,
+        "category": "onboarding",
+        "founded": "2022",
+        "hq": "New York, New York",
+        "pricing": "Custom pricing, early-stage startup",
+        "best_for": "B2B SaaS companies that want customers to self-serve through onboarding steps",
+        "website": "https://www.onramp.us",
+        "rating": {"value": 4.5, "count": 30},
+        "description": "Self-serve customer onboarding portal that lets B2B SaaS companies build guided, step-by-step onboarding experiences customers complete on their own timeline.",
+        "pros": [
+            "Purpose-built for self-serve onboarding, not adapted from project management",
+            "Customers complete onboarding steps independently, reducing CSM time",
+            "Embeddable portal can live inside your product",
+            "Dynamic flows that adapt based on customer inputs",
+            "Clean, modern UX that feels native to SaaS products",
+        ],
+        "cons": [
+            "Very early-stage company with a small customer base",
+            "Feature set is narrower than GuideCX or Rocketlane",
+            "Limited integrations and ecosystem",
+            "Not suited for complex, multi-stakeholder implementations",
+            "Pricing and long-term viability carry startup risk",
+        ],
+        "body": """<h2>OnRamp as a CS Tool</h2>
+<p>OnRamp appears in {mentions} of {total_jobs} CS job postings, which is expected for a startup founded in 2022. It occupies a specific niche: self-serve onboarding portals for B2B SaaS. While GuideCX and Rocketlane treat onboarding as a managed project, OnRamp treats it as a guided experience the customer drives themselves.</p>
+
+<h2>The Self-Serve Onboarding Bet</h2>
+<p>OnRamp's thesis is that many B2B onboarding steps do not require a human. Connecting integrations, uploading data files, configuring settings, watching training videos, and completing setup checklists can all be done by the customer if you give them a clear, guided experience. OnRamp provides that experience as an embeddable portal.</p>
+<p>For CS teams drowning in low-touch onboarding tasks, this is compelling. If 40% of your onboarding steps are administrative tasks you walk customers through on Zoom calls, OnRamp can automate those away and free your CSMs for higher-value conversations.</p>
+
+<h2>Who Should Use OnRamp</h2>
+<p>OnRamp fits product-led growth SaaS companies with a large volume of new customers and a relatively standardized onboarding process. If you onboard 100+ customers per month and most of them follow the same 10-15 setup steps, OnRamp scales that without adding headcount. If your onboarding requires heavy customization, consulting, or multi-stakeholder coordination, the managed project approach of GuideCX or Rocketlane is a better fit.</p>
+
+<h2>OnRamp Pricing</h2>
+<p>OnRamp does not publish pricing publicly. As an early-stage startup, expect flexibility in negotiations. The value proposition is headcount savings: if OnRamp reduces your onboarding team's per-customer time by 3 hours and you onboard 50 customers per month, that is 150 hours saved, roughly equivalent to a full-time employee.</p>""",
+    },
+    "Arrows": {
+        "slug": "arrows",
+        "mentions": 2,
+        "category": "onboarding",
+        "founded": "2020",
+        "hq": "Remote (US-based)",
+        "pricing": "Starts at $500/month, scales with HubSpot deal volume",
+        "best_for": "HubSpot-native teams that want onboarding plans tied directly to CRM deals",
+        "website": "https://www.arrows.to",
+        "rating": {"value": 4.8, "count": 65},
+        "description": "HubSpot-native onboarding and sales room tool that creates collaborative action plans synced bidirectionally with HubSpot deals, tickets, and contacts.",
+        "pros": [
+            "Deep, bidirectional HubSpot integration that competitors cannot match",
+            "Onboarding task completion syncs directly to HubSpot deal properties",
+            "Clean customer-facing plans that feel modern and collaborative",
+            "Sales rooms for pre-close buyer enablement, not just post-sale",
+            "Small team that ships fast and responds to customer feedback",
+        ],
+        "cons": [
+            "Only works with HubSpot. Salesforce teams cannot use it.",
+            "Smaller company with limited brand recognition",
+            "Feature set is narrower than full onboarding platforms",
+            "Reporting relies heavily on HubSpot's native reporting",
+            "Pricing at $500/month starting point is steep for small teams",
+        ],
+        "body": """<h2>Arrows as a CS Tool</h2>
+<p>Arrows appears in {mentions} of {total_jobs} CS job postings. Its market position is specific: it is the best onboarding tool for HubSpot-native teams. If your CRM is HubSpot and you want onboarding plans that sync directly to deals, Arrows is the only purpose-built option.</p>
+
+<h2>The HubSpot Integration Advantage</h2>
+<p>Arrows is not just "integrated with HubSpot." It is built on HubSpot. When a customer completes an onboarding task in Arrows, the corresponding HubSpot deal property updates in real time. When a deal moves stages in HubSpot, the Arrows plan can trigger new steps. This bidirectional sync means your CRM always reflects the true state of onboarding without manual data entry.</p>
+<p>For CS leaders who spend hours reconciling onboarding status between a project tool and their CRM, this alone justifies the price. Your HubSpot dashboards and reports automatically include onboarding progress data.</p>
+
+<h2>Who Should Use Arrows</h2>
+<p>The decision tree is simple. Are you on HubSpot? If yes, Arrows deserves a look. If no, it is not an option. Among HubSpot teams, Arrows fits best when you want a lightweight, customer-facing onboarding plan without the complexity of a full project management tool. If you need Gantt charts, resource management, and time tracking, GuideCX or Rocketlane are better choices even for HubSpot teams.</p>
+
+<h2>Arrows Pricing</h2>
+<p>Arrows starts at $500/month and scales based on the number of active onboarding plans. There is no per-user pricing, which is a plus for larger teams. The pricing model means Arrows gets expensive if you run a high volume of concurrent onboarding projects. For teams onboarding 10-30 customers per month, the cost is manageable. At 100+ concurrent plans, negotiate a volume discount.</p>""",
+    },
+    # --- Feedback Tools ---
+    "Delighted": {
+        "slug": "delighted",
+        "mentions": 4,
+        "category": "feedback",
+        "founded": "2013",
+        "hq": "Menlo Park, California",
+        "pricing": "Free tier available, Premium starts at $224/month",
+        "best_for": "CS teams that need quick, clean NPS/CSAT surveys without a complex setup",
+        "website": "https://www.delighted.com",
+        "rating": {"value": 4.7, "count": 400},
+        "description": "NPS, CSAT, CES, and star rating survey platform acquired by Qualtrics in 2018. Known for simplicity and high response rates across email, web, and SMS channels.",
+        "pros": [
+            "Extremely fast setup. First survey can go out in under 10 minutes.",
+            "Free tier with 1,000 surveys/month covers many startup needs",
+            "Multi-channel delivery: email, web intercept, SMS, and link",
+            "Qualtrics backing provides stability and ongoing investment",
+            "API is well-documented and integrations cover major CS platforms",
+        ],
+        "cons": [
+            "Limited survey customization compared to full survey tools like Typeform",
+            "Analytics are basic. Power users outgrow the built-in dashboards.",
+            "The Qualtrics acquisition has slowed feature development",
+            "No built-in closed-loop workflow for acting on survey responses",
+            "Text analytics for open-ended responses are rudimentary",
+        ],
+        "body": """<h2>Delighted as a CS Tool</h2>
+<p>Delighted appears in {mentions} of {total_jobs} CS job postings. It sits in the sweet spot between overly simple survey tools and enterprise-grade VoC platforms. CS teams use it primarily for relationship NPS, post-interaction CSAT, and onboarding CES surveys.</p>
+
+<h2>Why CS Teams Choose Delighted</h2>
+<p>Speed and response rates are the two reasons Delighted wins. The platform strips away complexity to focus on one thing: getting survey responses. The email surveys render inline (no click-through required), which pushes response rates to 20-30%, roughly double what most survey tools achieve. Setup takes minutes, not days.</p>
+<p>The free tier is genuinely useful. At 1,000 surveys per month with NPS, CSAT, and CES support, many CS teams at startups and SMBs can run their entire feedback program without paying. That makes Delighted an easy recommendation for teams getting started with customer feedback.</p>
+
+<h2>Delighted After the Qualtrics Acquisition</h2>
+<p>Qualtrics acquired Delighted in 2018, and the impact has been mixed. On the positive side, Delighted has Qualtrics' resources and is not going anywhere. On the negative side, feature velocity has slowed. Some features that the community has requested for years (conditional logic, multi-question surveys, advanced text analytics) remain limited. If you need those capabilities, look at Qualtrics XM directly or a specialized tool like Medallia.</p>
+
+<h2>Delighted Pricing</h2>
+<p>The free plan includes 1,000 surveys/month, 1 user, and basic integrations. The Premium plan at $224/month adds unlimited surveys, multiple users, custom branding, and advanced integrations. Premium Plus at $449/month adds API access and priority support. Compared to Medallia or Qualtrics XM, Delighted is 80-90% cheaper for basic NPS/CSAT programs.</p>""",
+    },
+    "AskNicely": {
+        "slug": "asknicely",
+        "mentions": 2,
+        "category": "feedback",
+        "founded": "2014",
+        "hq": "Portland, Oregon",
+        "pricing": "Custom pricing, typically $200-500/month depending on volume",
+        "best_for": "Service businesses with frontline teams where NPS needs to be operationalized at the branch/location level",
+        "website": "https://www.asknicely.com",
+        "rating": {"value": 4.5, "count": 180},
+        "description": "NPS and customer feedback platform designed to push scores and comments to frontline managers and employees. Built around the idea that feedback only matters if it reaches the people who can act on it.",
+        "pros": [
+            "Frontline-focused design pushes feedback to individual employees and managers",
+            "Mobile app for frontline staff to see their scores in real time",
+            "Daily email digests with NPS trends per location/team/employee",
+            "Coaching workflows tied to specific customer feedback",
+            "Strong in multi-location and franchise business models",
+        ],
+        "cons": [
+            "Less suited for pure SaaS CS teams without frontline roles",
+            "Survey capabilities are basic compared to Delighted or Medallia",
+            "Analytics and dashboards need improvement",
+            "Limited integrations outside CRM and helpdesk basics",
+            "Pricing is not published and requires a demo",
+        ],
+        "body": """<h2>AskNicely as a CS Tool</h2>
+<p>AskNicely appears in {mentions} of {total_jobs} CS job postings. Its presence in CS roles is lower than NPS-focused competitors because AskNicely targets a specific use case: operationalizing NPS at the frontline. If your business has customer-facing employees at locations, branches, or service sites, AskNicely was built for you.</p>
+
+<h2>The Frontline Feedback Model</h2>
+<p>Most NPS tools collect feedback and put it in a dashboard that leadership reviews monthly. AskNicely flips this. When a customer submits an NPS score, AskNicely routes it immediately to the specific employee or manager associated with that interaction. A property manager sees their NPS in a mobile app. A regional director gets a daily email with scores across their 12 locations.</p>
+<p>This model works well for healthcare practices, property management, professional services firms, and franchise operations. It works less well for SaaS companies where "frontline" means a CSM managing 50 accounts from a desk.</p>
+
+<h2>Who Should Use AskNicely</h2>
+<p>If your CS model involves frontline employees delivering service at physical locations, AskNicely is worth evaluating. The platform excels when you need to connect individual customer feedback to individual employees and give managers visibility into team performance. For SaaS CS teams that want NPS as a health score input, Delighted or even the NPS features built into Gainsight and ChurnZero are more practical choices.</p>
+
+<h2>AskNicely Pricing</h2>
+<p>AskNicely does not publish pricing. Based on market data, expect $200-500/month depending on survey volume and the number of frontline users. The mobile app for frontline staff may add per-user costs. For multi-location businesses with 50+ employees, plan to negotiate an annual contract for better rates.</p>""",
+    },
+    "Medallia": {
+        "slug": "medallia",
+        "mentions": 5,
+        "category": "feedback",
+        "founded": "2001",
+        "hq": "San Francisco, California",
+        "pricing": "Enterprise pricing only, typically $100K+/year",
+        "best_for": "Large enterprises running multi-channel voice-of-customer programs across thousands of touchpoints",
+        "website": "https://www.medallia.com",
+        "rating": {"value": 4.4, "count": 650},
+        "description": "Enterprise experience management platform that captures feedback signals across surveys, social media, call centers, chat, and IoT devices. Acquired by Thoma Bravo in 2021 for $6.4 billion.",
+        "pros": [
+            "Captures feedback from more channels than any competitor",
+            "Text and speech analytics powered by AI process millions of signals",
+            "Enterprise-grade permissions, SSO, and data governance",
+            "Deep vertical expertise in hospitality, financial services, and healthcare",
+            "Real-time alerting on critical customer feedback",
+        ],
+        "cons": [
+            "Pricing starts at six figures annually. Not for SMBs.",
+            "Implementation takes 3-6 months and requires dedicated resources",
+            "The platform is complex and has a steep learning curve",
+            "Overkill for teams that just need NPS and CSAT surveys",
+            "Post-acquisition (Thoma Bravo) product direction has raised questions",
+        ],
+        "body": """<h2>Medallia as a CS Tool</h2>
+<p>Medallia appears in {mentions} of {total_jobs} CS job postings. Most mentions come from enterprise CS roles at companies with 1,000+ employees. Medallia is not a tool you evaluate alongside Delighted or AskNicely. It is a platform you evaluate alongside Qualtrics XM when your feedback program spans call centers, retail locations, digital channels, and millions of customer interactions per year.</p>
+
+<h2>What Medallia Does at Scale</h2>
+<p>Medallia's strength is signal capture across every customer touchpoint. Surveys are just one input. The platform also ingests call center transcripts, chat logs, social media mentions, app store reviews, and IoT sensor data. Its AI processes these signals to identify themes, detect emerging issues, and predict churn risk at scale.</p>
+<p>For a hotel chain with 500 properties, Medallia can track guest feedback from post-stay surveys, in-app reviews, social media, and call center interactions, then surface trends at the property, regional, and corporate level. No other platform matches this breadth.</p>
+
+<h2>Who Should Use Medallia</h2>
+<p>Medallia fits companies with 5,000+ employees, multiple customer touchpoints, and a dedicated CX or VoC team. If you have an analyst whose full-time job is managing customer feedback programs, Medallia gives them the most powerful toolset available. If you are a 50-person SaaS startup that wants to send NPS surveys, Medallia is the wrong answer by a factor of 100x.</p>
+
+<h2>Medallia Pricing</h2>
+<p>Medallia does not publish pricing. Enterprise contracts typically start at $100K/year and can exceed $500K/year for large deployments. Implementation costs add another $50-150K depending on scope. The total cost of ownership makes Medallia a strategic investment, not a tool purchase. Evaluate it alongside Qualtrics XM, not alongside Delighted.</p>""",
+    },
+    # --- Digital Adoption Tools ---
+    "WalkMe": {
+        "slug": "walkme",
+        "mentions": 8,
+        "category": "digital-adoption",
+        "founded": "2011",
+        "hq": "San Francisco, California",
+        "pricing": "Enterprise pricing only, typically $10K-50K+/year",
+        "best_for": "Large enterprises driving software adoption across internal tools and customer-facing applications",
+        "website": "https://www.walkme.com",
+        "rating": {"value": 4.3, "count": 750},
+        "description": "Enterprise digital adoption platform that overlays any web application with guided walkthroughs, tooltips, and automations. Went public on NASDAQ in 2021. Acquired by SAP in 2024 for $1.5 billion.",
+        "pros": [
+            "Works on top of any web application, including third-party tools like Salesforce and Workday",
+            "Enterprise-grade analytics showing where users struggle and drop off",
+            "Automation features that complete repetitive tasks for users",
+            "Largest DAP on the market with the most mature feature set",
+            "SAP acquisition provides long-term stability and investment",
+        ],
+        "cons": [
+            "Expensive. Enterprise pricing puts it out of reach for most SMBs.",
+            "Implementation is complex and often requires a dedicated WalkMe admin",
+            "The builder UI has a steep learning curve compared to Pendo or Appcues",
+            "Performance overhead can slow down the host application",
+            "Customer-facing use cases are secondary to internal IT adoption",
+        ],
+        "body": """<h2>WalkMe as a CS Tool</h2>
+<p>WalkMe appears in {mentions} of {total_jobs} CS job postings. It is the most established digital adoption platform, but CS teams should understand that WalkMe's primary market is internal IT adoption (helping employees use Salesforce, Workday, ServiceNow), not customer-facing product adoption. CS use cases exist but are secondary.</p>
+
+<h2>WalkMe for Customer Success</h2>
+<p>When CS teams use WalkMe, it is typically for customer-facing onboarding walkthroughs and in-app guidance. WalkMe overlays your product with step-by-step guides that walk customers through complex workflows. The analytics show where customers get stuck, which steps they skip, and where they abandon processes.</p>
+<p>The automation feature is underappreciated. WalkMe can auto-fill fields, navigate between pages, and complete repetitive steps for users. For products with complex data entry or multi-step configuration processes, this reduces customer frustration significantly.</p>
+
+<h2>WalkMe vs Pendo for CS Teams</h2>
+<p>Pendo and WalkMe overlap but serve different primary audiences. Pendo is product-analytics-first with adoption features. WalkMe is adoption-first with analytics as a supporting capability. For CS teams that want product usage data to build health scores and identify at-risk accounts, Pendo is the better choice. For CS teams that want to build complex, multi-step guided experiences across multiple applications, WalkMe has more power.</p>
+
+<h2>WalkMe Pricing</h2>
+<p>WalkMe does not publish pricing. Enterprise contracts typically start at $10,000/year for a single application and scale to $50,000+ for multi-application deployments. The SAP acquisition may shift pricing models over time. For CS teams specifically, evaluate whether Pendo at roughly half the cost covers your needs before committing to WalkMe's enterprise pricing.</p>""",
+    },
+    "Appcues": {
+        "slug": "appcues",
+        "mentions": 4,
+        "category": "digital-adoption",
+        "founded": "2013",
+        "hq": "Boston, Massachusetts",
+        "pricing": "Starts at $249/month, Growth plan at $879/month",
+        "best_for": "Product and CS teams at SaaS companies that need no-code in-app experiences without enterprise complexity",
+        "website": "https://www.appcues.com",
+        "rating": {"value": 4.5, "count": 350},
+        "description": "No-code product adoption platform for building in-app onboarding flows, feature announcements, and user surveys. Positioned between Userpilot (cheaper, simpler) and Pendo (more powerful, more expensive).",
+        "pros": [
+            "No-code builder that non-technical CSMs can use independently",
+            "Clean UI with a shorter learning curve than Pendo or WalkMe",
+            "Good template library for common onboarding patterns",
+            "Solid event tracking and segmentation for targeting experiences",
+            "Published pricing with a clear upgrade path",
+        ],
+        "cons": [
+            "Analytics are less deep than Pendo. No retroactive data.",
+            "Mobile support is limited compared to Pendo",
+            "The $249/month Essentials plan caps at 2,500 monthly active users",
+            "Advanced targeting requires the Growth plan at $879/month",
+            "No native customer health scoring or CS-specific features",
+        ],
+        "body": """<h2>Appcues as a CS Tool</h2>
+<p>Appcues appears in {mentions} of {total_jobs} CS job postings. It fills a specific gap in the CS tech stack: building in-app onboarding experiences and feature announcements without engineering help. Appcues is not a CS platform, but it is a tool CS teams use frequently to drive product adoption.</p>
+
+<h2>Where Appcues Fits in the CS Stack</h2>
+<p>CS teams typically use Appcues for three things. First, onboarding checklists and guided tours that help new users reach their first value milestone. Second, feature announcement modals and tooltips that drive adoption of new capabilities. Third, in-app NPS or micro-surveys triggered by specific user actions. Appcues handles all three without code.</p>
+<p>The no-code builder is genuinely easy to use. A CSM can create a 5-step onboarding flow, target it to users who signed up in the last 7 days, and launch it within an hour. With Pendo or WalkMe, the same process typically requires training or admin help.</p>
+
+<h2>Appcues vs Pendo vs Userpilot</h2>
+<p>Think of these three as a pricing and power spectrum. Userpilot ($249/month) is the budget option with basic analytics. Appcues ($249-879/month) is the mid-range option with better experience building but limited analytics. Pendo ($2,000+/month) is the premium option with deep analytics, retroactive data, and enterprise features. CS teams with a tight budget start with Userpilot, upgrade to Appcues when they need better targeting and templates, and move to Pendo when product analytics become a strategic priority.</p>
+
+<h2>Appcues Pricing</h2>
+<p>Appcues publishes pricing clearly. The Essentials plan at $249/month supports up to 2,500 MAUs with basic flows and targeting. The Growth plan at $879/month adds advanced targeting, A/B testing, and unlimited MAUs. Enterprise is custom. The MAU cap on the Essentials plan is the key constraint. If your product has 10,000 monthly active users, you are immediately on the Growth plan.</p>""",
+    },
+    # --- Revenue Intelligence Tools ---
+    "Clari": {
+        "slug": "clari",
+        "mentions": 7,
+        "category": "revenue-intelligence",
+        "founded": "2012",
+        "hq": "Sunnyvale, California",
+        "pricing": "Custom pricing, typically $50-100/user/month",
+        "best_for": "Revenue teams that need forecasting accuracy and pipeline visibility across sales and CS",
+        "website": "https://www.clari.com",
+        "rating": {"value": 4.5, "count": 500},
+        "description": "Revenue operations and forecasting platform that uses AI to analyze pipeline data, forecast revenue, and identify risk across the entire customer lifecycle from acquisition through renewal.",
+        "pros": [
+            "Forecasting accuracy that measurably outperforms spreadsheet-based methods",
+            "Unified view of pipeline across new business, expansion, and renewals",
+            "AI-driven risk scoring on deals and renewals",
+            "Strong Salesforce integration that pulls data automatically",
+            "Revenue cadence features replace manual forecast calls",
+        ],
+        "cons": [
+            "Primarily a sales/revenue tool. CS-specific features are limited.",
+            "Requires clean CRM data to function well. Garbage in, garbage out.",
+            "Learning curve for CS teams unfamiliar with revenue operations concepts",
+            "Pricing is not published and targets mid-market to enterprise",
+            "Renewal-specific features lag behind new-business pipeline management",
+        ],
+        "body": """<h2>Clari as a CS Tool</h2>
+<p>Clari appears in {mentions} of {total_jobs} CS job postings. Its presence in CS roles is growing as companies push CS teams to own renewal forecasting and net revenue retention. Clari is fundamentally a revenue operations platform, but CS teams increasingly use it to manage the renewal pipeline the same way sales teams use it to manage new business.</p>
+
+<h2>How CS Teams Use Clari</h2>
+<p>The primary CS use case is renewal forecasting. Clari pulls data from Salesforce (or HubSpot), overlays activity data from email and calendar, and uses AI to predict which renewals are on track and which are at risk. Instead of CSMs manually updating renewal probability in a spreadsheet, Clari auto-calculates a confidence score based on engagement patterns.</p>
+<p>The second use case is expansion pipeline management. CS teams that own upsell and cross-sell revenue use Clari to track expansion opportunities through a pipeline view identical to what sales uses for new logos. This gives leadership a single platform for all revenue forecasting.</p>
+
+<h2>Who Should Use Clari</h2>
+<p>Clari fits CS organizations where the team owns a revenue number. If your CS team is responsible for renewal rates, expansion revenue, and net dollar retention, Clari gives you the forecasting tools to manage that number. If your CS team is focused on adoption and health scoring without direct revenue ownership, a CS platform like Gainsight or ChurnZero is a better investment.</p>
+
+<h2>Clari Pricing</h2>
+<p>Clari does not publish pricing. Based on market data, expect $50-100/user/month depending on modules and volume. Most deployments start with the sales team and expand to CS, which means the platform is often already purchased when CS starts using it. If your sales team already has Clari, the marginal cost to add CS users is typically lower than buying a standalone CS tool for renewal forecasting.</p>""",
+    },
+    "People.ai": {
+        "slug": "people-ai",
+        "mentions": 3,
+        "category": "revenue-intelligence",
+        "founded": "2016",
+        "hq": "San Francisco, California",
+        "pricing": "Custom pricing, enterprise-focused, typically $50-75/user/month",
+        "best_for": "Revenue teams that need automatic activity capture and contact mapping without manual CRM entry",
+        "website": "https://www.people.ai",
+        "rating": {"value": 4.4, "count": 300},
+        "description": "Activity intelligence platform that automatically captures email, calendar, and engagement data, maps it to CRM records, and provides AI-driven insights on account engagement and deal health.",
+        "pros": [
+            "Automatic activity capture eliminates manual CRM logging",
+            "Contact and stakeholder mapping builds org charts from email/meeting data",
+            "AI scoring identifies which accounts are getting enough attention and which are not",
+            "Engagement benchmarks show what good CSM activity looks like across the book",
+            "Strong Salesforce integration with native CRM data enrichment",
+        ],
+        "cons": [
+            "Privacy concerns around email and calendar data capture require careful rollout",
+            "Primarily designed for sales teams. CS features are an extension.",
+            "Requires sufficient email/calendar volume to generate useful insights",
+            "Pricing is not published and targets enterprise buyers",
+            "Data accuracy depends on clean CRM contact records for matching",
+        ],
+        "body": """<h2>People.ai as a CS Tool</h2>
+<p>People.ai appears in {mentions} of {total_jobs} CS job postings. It is an activity intelligence platform, which means it automatically captures and analyzes how your team engages with customers across email, meetings, and calls. For CS teams, the value proposition is twofold: eliminate manual CRM logging and surface which accounts are getting too little attention.</p>
+
+<h2>Automatic Activity Capture for CS</h2>
+<p>The biggest friction point in CS operations is getting CSMs to log activities in the CRM. Most do not, or they log selectively. People.ai eliminates this entirely by syncing email and calendar data to Salesforce automatically. Every email sent, every meeting held, every call made gets matched to the right account and contact record without the CSM doing anything.</p>
+<p>This creates a complete activity history that CS leaders can use to answer questions like: How many touchpoints did this churned account receive in the 90 days before renewal? Are my CSMs spending time on the right accounts? Which accounts have gone dark with zero engagement in the last 30 days?</p>
+
+<h2>Stakeholder Mapping</h2>
+<p>People.ai builds stakeholder maps by analyzing email and meeting patterns. It identifies which contacts your team engages with, how frequently, and whether key decision-makers are in the loop. For CS teams managing renewals, knowing that your CSM only talks to the end user and has zero engagement with the economic buyer is a critical risk signal that most CS platforms miss.</p>
+
+<h2>People.ai Pricing</h2>
+<p>People.ai does not publish pricing. Enterprise contracts typically run $50-75/user/month. Like Clari, People.ai often enters an organization through the sales team first. If your sales team already uses People.ai, extending it to CS adds the activity capture and engagement analytics at marginal cost. Buying People.ai for CS alone is harder to justify unless your team is large enough (20+ CSMs) that the activity visibility creates measurable operational improvements.</p>""",
+    },
 }
 
 # ---------------------------------------------------------------------------
